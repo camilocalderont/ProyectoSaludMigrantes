@@ -13,8 +13,7 @@ namespace ProyectoSaludMigrantes.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            new LocalidadConfig(modelBuilder);
-            //new DeclaracionesMigrantesConfig(modelBuilder);
+            new LocalidadConfig(modelBuilder);            
         }        
     }
 }

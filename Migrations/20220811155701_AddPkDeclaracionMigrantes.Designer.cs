@@ -11,8 +11,8 @@ using ProyectoSaludMigrantes.Models;
 namespace SaludMigrantes.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220810221833_FillDeclaracionMigrantesTable")]
-    partial class FillDeclaracionMigrantesTable
+    [Migration("20220811155701_AddPkDeclaracionMigrantes")]
+    partial class AddPkDeclaracionMigrantes
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
